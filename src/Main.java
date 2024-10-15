@@ -17,7 +17,7 @@ public class Main {
             System.out.println("5. USD to COP");
             System.out.println("6. COP to USD");
             System.out.println("7. SAIR");
-            System.out.println("*****************************************************************");
+            System.out.println("*****************************************************************\n");
             System.out.print("Escolha uma opção válida: ");
 
             int option = scanner.nextInt();
