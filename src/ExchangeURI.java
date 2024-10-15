@@ -22,7 +22,7 @@ public class ExchangeURI {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
             return new Gson().fromJson(response.body(), ExchangeRate.class);
         } catch (Exception e) {
-            throw new RuntimeException("Nao consegui obter o par.");
+            throw new RuntimeException("Error.");
         }
     }
 }
