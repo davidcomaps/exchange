@@ -10,12 +10,12 @@ public class Main {
         while (true) {
             System.out.println("\n****************************************************************");
             System.out.println("Seja bem-vindo(a) ao Conversor de Moeda ><");
-            System.out.println("1. USD to ARS");
-            System.out.println("2. ARS to USD");
-            System.out.println("3. USD to BRL");
-            System.out.println("4. BRL to USD");
-            System.out.println("5. USD to COP");
-            System.out.println("6. COP to USD");
+            System.out.println("1. USD >>> ARS");
+            System.out.println("2. ARS >>> USD");
+            System.out.println("3. USD >>> BRL");
+            System.out.println("4. BRL >>> USD");
+            System.out.println("5. USD >>> COP");
+            System.out.println("6. COP >>> USD");
             System.out.println("7. SAIR");
             System.out.println("*****************************************************************\n");
             System.out.print("Escolha uma opção válida: ");
