@@ -9,7 +9,7 @@ import java.net.http.HttpResponse;
 public class ExchangeURI {
 
     public ExchangeRate exchangeRate(String base_code) throws IOException, InterruptedException {
-        String API_KEY = "ae7750e72273e48ea4d91e7a";
+        String API_KEY = "API_KEY";
         String url = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/" + base_code;
 
         HttpClient client = HttpClient.newHttpClient();
